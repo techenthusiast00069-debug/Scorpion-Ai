@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.wrangler/
+.tools/
+.dev.vars
+.env
+.env.local
+.DS_Store
+*.log
+/freebuff-sites-build/
+
+# local secrets and artifacts
+.env_operator_token
+access_data.json
+*.zip
