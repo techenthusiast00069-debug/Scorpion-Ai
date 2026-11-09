@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141619"/>
+      <stop offset="1" stop-color="#060708"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0.1" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#c9cfd7"/>
+      <stop offset="1" stop-color="#7d838d"/>
+    </linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b78"/>
+      <stop offset="1" stop-color="#a80d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="12.5" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+  <g transform="translate(6.4 16) scale(0.19)">
+    <g stroke="#ffffff" stroke-opacity="0.75" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M130 160 L118 176 L121 194"/>
+      <path d="M148 164 L142 183 L148 200"/>
+      <path d="M166 165 L169 185 L177 199"/>
+      <path d="M186 163 L197 181 L208 190"/>
+    </g>
+    <path d="M206 151 A 42 50 0 0 0 206 51 L206 68 A 25 33 0 0 1 206 134 Z" fill="url(#s)"/>
+    <ellipse cx="207" cy="59" rx="15" ry="13" fill="url(#s)"/>
+    <path d="M199 48 C182 36 160 45 160 61 C160 72 166 81 175 87 C170 78 171 67 179 61 C185 56 192 53 197 49 C197.6 48.6 198.4 48.4 199 48 Z" fill="url(#c)"/>
+    <path d="M103 147 C103 133 116 125 132 125 L184 129 C202 131 213 140 213 150 C213 161 200 167 183 167 L133 166 C116 166 103 160 103 147 Z" fill="url(#s)"/>
+    <path d="M152 127 L151 164 M170 128 L169 164 M188 131 L187 163" stroke="#22262c" stroke-opacity="0.55" stroke-width="3"/>
+    <path d="M110 132 C92 126 80 116 72 104" stroke="url(#s)" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <path d="M113 154 C96 155 84 153 74 148" stroke="url(#s)" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M12 -12 C1 -20 -13 -21 -21 -15 C-31 -20 -39 -22 -45 -19 C-49 -17 -49 -12 -45 -10 C-36 -8 -29 -6 -22 -4 C-32 -1 -42 2 -49 0 C-46 8 -38 14 -28 16 C-16 19 -2 17 8 12 C16 6 17 -5 12 -12 Z" fill="url(#s)" transform="translate(60 98) rotate(-5)"/>
+    <path d="M12 -12 C1 -20 -13 -21 -21 -15 C-31 -20 -39 -22 -45 -19 C-49 -17 -49 -12 -45 -10 C-36 -8 -29 -6 -22 -4 C-32 -1 -42 2 -49 0 C-46 8 -38 14 -28 16 C-16 19 -2 17 8 12 C16 6 17 -5 12 -12 Z" fill="url(#s)" transform="translate(62 152) rotate(6) scale(0.94)"/>
+    <path d="M115 137 L124 137" stroke="#e51d2f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
